@@ -10,4 +10,12 @@ patch:
     - { when: has_menu, accept: semicolon, send: 2 }
     - { when: has_menu, accept: apostrophe, send: 3 }
 ```
+上屏配置
+```
+patch:
+  "style/horizontal": true
+  "style/inline_preedit": true  # 內嵌編碼（僅支持TSF）
+  "style/display_tray_icon": false      
+  "auto_commit": true  # 切换到英文时自动上屏
+```
 
