@@ -18,4 +18,12 @@ patch:
   "style/display_tray_icon": false      
   "auto_commit": true  # 切换到英文时自动上屏
 ```
+wubi86.schema.yaml
+```
+speller:
+  delimiter: " ;'"
+  max_code_length: 4    #四码上屏
+  auto_select: true                       # 顶字上屏
+  auto_select_unique_candidate: true      # 无重码自动上屏
+```
 
