@@ -18,6 +18,7 @@ patch:
   "style/display_tray_icon": false    
   "ascii_composer/switch_key/Shift_L": commit_code
   "auto_commit": true  # 切换到英文时自动上屏
+  "translator/enable_user_dict": false # 关闭用户词典
   "key_binder/bindings":
     - { when: has_menu, accept: semicolon, send: 2 }
     - { when: has_menu, accept: apostrophe, send: 3 }
